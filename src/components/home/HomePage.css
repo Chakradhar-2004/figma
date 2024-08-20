@@ -1,0 +1,49 @@
+/* HomePage.css */
+
+.home-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .sidebar {
+    width: 25%; /* Adjust width as needed */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Optional shadow for visual separation */
+  }
+  
+  .vertical-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .vertical-list li {
+    margin: 10px 0;
+  }
+  
+  .vertical-list li a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    font-size: 16px;
+  }
+  
+  .vertical-list li a:hover {
+    color: #007bff; /* Highlight color on hover */
+  }
+  
+  .main-content {
+    width: 75%; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #fff; /* White background for the content area */
+  }
+  
+  .main-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin-top: 10px;
+  }
+  
